@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Web assignment</title>
+        <link rel="stylesheet"  type="text/css">
+        
+        <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    height: 60px;
+    background: #262626;
+    padding: 0 50px;
+}
+
+
+.logo{
+        float:left;
+        padding: 10px;
+}
+
+nav{
+    width: 68%;
+    float:inline-start;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+}
+
+
+a:hover
+{
+    color: red;
+}
+
+
+
+.x-div
+{
+    position:static;
+    padding: 160px;
+    left: 500px;
+    top: 100px;
+    cursor: pointer;
+    font-size: 100px;
+   
+}
+x-sign
+{
+  color: tomato;
+  --color1:orangered;
+  --color2:firebrick;
+  --color3:maroon;
+  --color4:darkred;
+  --color5:rgb(8, 8, 129);
+  font-family: Yellowtail;
+  --interval: 2s;
+  display: block;
+  text-shadow: 0 0 10px var(--color1),
+                0 0 20px var(--color2),
+                0 0 40px var(--color3),
+                0 0 80px var(--color4),
+                0 0 100px var(--color5);
+                will-change: filter, color;
+                filter: saturate(60%);
+                animation: flicker steps(100) var(--interval) 1s infinite;
+}
+@keyframes flicker
+{
+    50%
+    {
+        color: white;
+        filter: saturate(300%) hue-rotate(150deg);
+    }
+}
+
+
+y-sign
+{
+  color: rgb(71, 255, 102);
+  --color1:rgb(218, 42, 180);
+  --color2:rgb(224, 238, 26);
+  --color3:rgb(218, 5, 5);
+  --color4:rgb(86, 139, 0);
+  --color5:rgb(129, 8, 8);
+  font-family: Yellowtail;
+  --interval: 2s;
+  display: block;
+  text-shadow: 0 0 10px var(--color1),
+                0 0 20px var(--color2),
+                0 0 40px var(--color3),
+                0 0 80px var(--color4),
+                0 0 100px var(--color5);
+                will-change: filter, color;
+                filter: saturate(60%);
+                animation: flicker steps(100) var(--interval) 1s infinite;
+                font-size: 60px;
+}
+@keyframes flicker
+{
+    50%
+    {
+        color: white;
+        filter: saturate(300%) hue-rotate(150deg);
+    }
+}
+
+
+
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(61, 66, 55, 0.71), rgba(83, 73, 73, 0.71)),  url("aari3.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.banner img{
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+
+footer{
+    background: rgb(5, 5, 5);
+    color:rgb(252, 245, 245);
+    padding: 15px 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+        </style>
+    </head>
+    <body>
+
+        
+                
+        <header>
+            
+            <nav>
+                <div class="logo">
+                    <img src="logo.PNG" width="50" height="50" >
+               </div>
+                <ul>
+                    <li> <a href="home.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUTUS</a></li>
+                    <li><a href="index.html">QUIZ</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="x-div">
+                <x-sign> 
+                   <center> QUIZ...!!!</center>
+                </x-sign>
+                <y-sign> 
+                  <center>A quick and informal assessment of student knowledge..!</center>
+                </y-sign>
+            </div>
+
+             <a href="selfLearning.html">
+                 <button style="background-color: rgb(59, 42, 35); color:rgb(187, 255, 0); border-radius: 20px;
+                  font-size: 40px; padding: 50px; padding-top: 15px; padding-right: 10px; padding-left: 10px;
+                   padding-bottom: 15px; font-family: sans-serif;
+                   position: absolute;top:80%;right: 50px;width: 400px;transform: translateY(-40%);"> CLICK START! </button>
+             </a>
+           
+    
+</header>
+<div class="banner">
+</div>
+
+
+
+<footer>
+    <p>All right reserved by our website</p>
+</footer>
+
+</body>
+
+</html>
+ 
+
+
+
+

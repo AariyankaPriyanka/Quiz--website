@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web assignment</title>
+        <link rel="stylesheet"  type="text/css">
+        
+        <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    height: 60px;
+    background: #262626;
+    padding: 0 50px;
+}
+
+
+.logo{
+        float:left;
+        padding: 10px;
+}
+
+nav{
+    width: 68%;
+    float:inline-start;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+}
+
+
+a:hover
+{
+    color: red;
+}
+
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(61, 66, 55, 0.71), rgba(83, 73, 73, 0.71)),  url("aari2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner img{
+    width: 100%;
+    height: 90vh;
+}
+
+
+footer{
+    background: rgb(5, 5, 5);
+    color:rgb(252, 245, 245);
+    padding: 15px 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h1{
+  font-family: 'Allura', cursive;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.wrapper{
+  margin: 10px;
+}
+
+.team{
+  display:inline-flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap:wrap;
+}
+
+.team .team_one{
+  background: rgb(241, 229, 237);
+  margin: 15px;
+  margin-bottom: 50px;
+  width: 400px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+  border: #069818;
+  border-radius: 10px;
+}
+
+
+.team .team_one .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(180, 10, 110);
+  clip-path: circle(55%);
+  zoom: 2px;
+}
+
+.team .team_one .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+   </style>
+    </head>
+    <body>     
+        <header>
+            
+            <nav>
+                <div class="logo">
+                    <img src="logo.PNG" width="50" height="50" >
+               </div>
+                <ul>
+                    <li> <a href="home.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUTUS</a></li>
+                    <li><a href="index.html">QUIZ</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </nav>
+        <br>
+            <h1 style=" margin: 80px ;color: rgb(245, 237, 237);">ABOUTUS</h1>
+            <center><div class="wrapper">
+                <div class="team">
+                  <div class="team_one">
+                    <div class="team_img">
+                      <img src="one.png" alt="Team_image">
+                    </div>
+                    <br><br>
+                    <p><b>
+                        This is a Quiz website. <br>
+                        It is contain 25 Questions each a heading. <br>
+                        Every question take 15 seconds. <br>
+                        This Quiz website used only practice the coding section. <br>
+                        I hope this quiz website useful for students. <br>
+                    </b></p>
+                  </div>
+
+                  <div class="team_one">
+                    <div class="team_img">
+                      <img src="two.png" alt="Team_image">
+                    </div>
+                    <br><br>
+                    <p><b>
+                        This website contain small reference ideas. <br>
+                        It's two types reference. <br>
+                        one of the type is link releted reference Another one in book related.<br>
+                        This book releted reference based on online web based. <br>
+                       
+                    </b></p>
+                  </div>
+
+                </div>
+            </div>
+        </center>
+    
+    
+</header>
+<div class="banner">
+</div>
+
+
+
+<footer>
+    <p>All right reserved by our website</p>
+</footer>
+
+</body>
+
+</html>
+ 
